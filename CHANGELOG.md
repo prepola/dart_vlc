@@ -1,3 +1,7 @@
+## windows-vlc-version-update
+
+- add vlc binary 3.0.17.4 
+
 ## 0.2.0
 
 - Addressed multiple Dart-sided memory leaks during FFI interop (@alexmercerind).

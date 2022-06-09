@@ -28,6 +28,7 @@ Record::Record(std::shared_ptr<Media> media, std::string saving_file)
 
 void Record::Start() {
   std::stringstream sout;
+  // 22.05.23: add transcode option for ts recode
   sout << "#transcode{acodec=mp3, channels=2}:std{access=file,mux=raw,dst=" << saving_file_ << "}";
   libvlc_vlm_add_broadcast(vlc_instance_.get(), media_->location().c_str(),
                            media_->location().c_str(), sout.str().c_str(), 0,
