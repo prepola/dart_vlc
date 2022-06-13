@@ -1,6 +1,7 @@
 ## windows-vlc-version-update
 
-- add vlc binary 3.0.17.4 
+- add vlc binary 3.0.17.4
+- add transcode option for ts recode
 
 ## 0.2.0
 
